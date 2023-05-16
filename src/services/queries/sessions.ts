@@ -30,6 +30,6 @@ const deserialize = (id: string, session: { [key: string]: string}) => {
 const serialize = (session: Session) => {
     return {
         userId: session.userId,
-        username: session
+        username: session.username
     };
 };
